@@ -5,6 +5,7 @@
 - Adaptive
 - SaaS
 - Typescript
+- Vite
 
 ## Demo Links
 - [Demo](https://AndriiZakharenko.github.io/xora/)
