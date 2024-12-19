@@ -1,10 +1,23 @@
 # Xora
 
-- React
-- Tailwind
+### Description
+
+- Created a modern landing page
+
+### Stack
+
+- HTML (BEM)
+- CSS (TailWind)
+- JS
 - Adaptive
 - SaaS
+- React
+- ReactDOM
 - Typescript
+
+### Tools
+
+- ESlint
 - Vite
 
 ## Demo Links
