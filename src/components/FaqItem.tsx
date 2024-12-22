@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { useState } from "react";
 import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
-import { FaqItemProps } from "../constants/faq";
+import { FaqItemProps } from "../constants/sections/faq";
 
 const FaqItem: React.FC<FaqItemProps> = ({ item, index }) => {
   const [activeId, setActiveId] = useState<number | string | null>(null);

@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-import { colors } from "./src/constants/colors";
-import { boxShadow } from "./src/constants/boxShadows";
-import { fontFamily } from "./src/constants/fontFamily";
-import { spacing } from "./src/constants/spacing";
-import { borderRadius } from "./src/constants/borderRadius";
-import { zIndex } from "./src/constants/zIndex";
-import { lineHeight } from "./src/constants/lineHeights";
-import { flex } from "./src/constants/flex";
-import { transitionProperty } from "./src/constants/transitionProperties";
+import { colors } from "./src/constants/styles/colors";
+import { boxShadow } from "./src/constants/styles/boxShadows";
+import { fontFamily } from "./src/constants/styles/fontFamily";
+import { spacing } from "./src/constants/styles/spacing";
+import { borderRadius } from "./src/constants/styles/borderRadius";
+import { zIndex } from "./src/constants/styles/zIndex";
+import { lineHeight } from "./src/constants/styles/lineHeights";
+import { flex } from "./src/constants/styles/flex";
+import { transitionProperty } from "./src/constants/styles/transitionProperties";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],

@@ -1,12 +1,15 @@
 import clsx from "clsx";
-import { Testimonial } from "../constants/testimonials";
+import { Testimonial } from "../constants/sections/testimonials";
 
 interface TestimonialItemProps {
   item: Testimonial;
   containerClassName?: string;
 }
 
-const TestimonialItem: React.FC<TestimonialItemProps> = ({ item, containerClassName }) => {
+const TestimonialItem: React.FC<TestimonialItemProps> = ({
+  item,
+  containerClassName,
+}) => {
   return (
     <div
       className={clsx(
