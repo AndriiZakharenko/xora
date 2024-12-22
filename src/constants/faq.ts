@@ -1,3 +1,11 @@
+export interface FaqItemProps {
+  item: {
+    id: string | number;
+    question: string;
+    answer: string;
+  };
+  index: number;
+}
 export const faq = [
   {
     id: "0",
