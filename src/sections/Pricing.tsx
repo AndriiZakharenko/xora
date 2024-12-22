@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { useState } from "react";
 import { Element } from "react-scroll";
 import Button from "../components/Button";
-import { plans } from "../constants/plans";
+import { plans } from "../constants/blocks/plans";
 import CountUp from "react-countup";
 
 const Pricing = () => {

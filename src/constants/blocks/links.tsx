@@ -1,7 +1,7 @@
-import { Android } from "./Android";
-import { Ios } from "./Ios";
-import { Web } from "./Web";
-import { Windows } from "./Windows";
+import { Android } from "../platforms/Android";
+import { Ios } from "../platforms/Ios";
+import { Web } from "../platforms/Web";
+import { Windows } from "../platforms/Windows";
 
 export const links = [
   {
