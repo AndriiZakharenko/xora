@@ -21,5 +21,5 @@ export const spacing = {
     640: "640px",
     960: "960px",
     1230: "1230px",
-  };
+  } as const;
   

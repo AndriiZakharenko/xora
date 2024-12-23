@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+import { Config } from 'tailwindcss';
 import { colors } from "./src/constants/styles/colors";
 import { boxShadow } from "./src/constants/styles/boxShadows";
 import { fontFamily } from "./src/constants/styles/fontFamily";
@@ -9,7 +9,7 @@ import { lineHeight } from "./src/constants/styles/lineHeights";
 import { flex } from "./src/constants/styles/flex";
 import { transitionProperty } from "./src/constants/styles/transitionProperties";
 
-export default {
+const config: Config = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -26,3 +26,5 @@ export default {
   },
   plugins: [],
 };
+
+export default config;

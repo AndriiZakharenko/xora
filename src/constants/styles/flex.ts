@@ -6,5 +6,5 @@ export const flex = {
     280: "0 0 280px",
     256: "0 0 256px",
     100: "0 0 100%",
-  };
+  } as const;
   
