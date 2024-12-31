@@ -10,7 +10,7 @@
 - CSS (TailWind)
 - JS
 - Adaptive
-- React
+- React (18)
 - ReactDOM
 - Typescript
 
